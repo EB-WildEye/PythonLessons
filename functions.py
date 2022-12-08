@@ -45,7 +45,7 @@ def main():
     print("Sum of 2 and 3 is : {}".format(sum))
 
     # call hello() function
-    hello("Ahmed")
+    hello( "Joue")
 
     # call create_window() function
     window = create_window(title="Hello Window", message="Hey There !")
