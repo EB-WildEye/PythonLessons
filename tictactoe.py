@@ -14,6 +14,15 @@ def print_board(board_matrix):
         print()
 
 
+def print_board_to_user(board_matrix):
+    for rows in range(3):
+        print("---"* 4)
+        for cols in range(3):
+            print("|", board_matrix[rows][cols], end=" ")
+        print()
+        
+
+
 # Start menue - get the user input
 def start_menue():
     print("Welcome to TicTacToe Game !")
@@ -32,17 +41,22 @@ def start_menue():
 
 def game():
     #initialize the board and the players names
-    board_matrix = [[ 0 for i in range(3)] for j in range(3)]
+    board_matrix = [[ 0 for i in range(3)] for j in range(3)] 
     userNameO, userNameX = start_menue()
     print_board(board_matrix)
 
     # get the user input and update the board , print the board after each turn
-
+    """ 1- הגדירו פונקציה שמקבלת את הלוח ואת שמות השחקנים
+        2- לעבור בלולאה עד שהלוח מלא
+        3 - לבקש את השורה ואת העמודה מהמשתמש  -> input()
+        4- לעדכן את הלוח בסימן של המשתמש X O """
 
 
     # if the game is over print message and ask if the user want to play again
    
       
 
-# run the game
-game()
+# activate the function here :
+# game()
+board_matrix = [[ 0 for i in range(3)] for j in range(3)] 
+print_board_to_user(board_matrix)
