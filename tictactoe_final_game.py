@@ -63,15 +63,15 @@ def play_turn(board_matrix, curr_player_name, curr_player_symbol, other_player_n
     # get the user input, convert from string to int
     print("It's " + curr_player_name + ' turn now.')
     turn = input('Insert row, colunm here : ').split(',')
-    row = int(turn[0])
-    col = int(turn[1])
+    row = int(turn[0] - 1)
+    col = int(turn[1] - 1)
     
     # check if the cell is empty
     while board_matrix[row][col] != 0:
         print("This cell isn't empty, choose a new cell")
         turn = input('Insert row, colunm here : ').split(',')
-        row = int(turn[0])
-        col = int(turn[1])
+        row = int(turn[0] - 1)
+        col = int(turn[1] - 1)
 
     # update the board
     board_matrix[row][col] = curr_player_symbol
