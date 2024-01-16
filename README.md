@@ -25,11 +25,13 @@ Before you begin, ensure you have Python installed on your system. You can downl
 
 Follow these steps to set up your environment:
 
-1. Clone the repository to your local machine:
+1. Clone the repository to your local machine: 
+
 *git clone https://github.com/EB-303/PythonLessons.git*
 
 2. Navigate to the repository directory in your terminal or command prompt.
-3. Run the lesson files using Python:
+3. Run the lesson files using Python: \n
+
 *python filename.py*
 Replace `filename.py` with the lesson file you want to run.
 
