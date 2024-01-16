@@ -45,11 +45,12 @@ Try your hand at tictactoe_final_game.py when you're ready to put your skills to
 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-##### Fork the Project
-##### Create your Feature Branch (git checkout -b feature/AmazingFeature)
-##### Commit your changes (git commit -m 'Add some AmazingFeature')
-##### Push to the Branch (git push origin feature/AmazingFeature)
-##### Open a Pull Request
+#### Fork the Project
+#### Create your Feature Branch (git checkout -b feature/AmazingFeature)
+#### Commit your changes (git commit -m 'Add some AmazingFeature')
+#### Push to the Branch (git push origin feature/AmazingFeature)
+#### Open a Pull Request
+
 
 
 ### Feedback
