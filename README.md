@@ -33,6 +33,7 @@ Follow these steps to set up your environment:
 3. Run the lesson files using Python: \n
 
 *python filename.py*
+
 Replace `filename.py` with the lesson file you want to run.
 
 
