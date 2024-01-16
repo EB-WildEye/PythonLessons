@@ -26,15 +26,11 @@ Before you begin, ensure you have Python installed on your system. You can downl
 Follow these steps to set up your environment:
 
 1. Clone the repository to your local machine:
-------------------------------------------------------------------------
-git clone https://github.com/EB-303/PythonLessons.git
-------------------------------------------------------------------------
+*git clone https://github.com/EB-303/PythonLessons.git*
 
 2. Navigate to the repository directory in your terminal or command prompt.
 3. Run the lesson files using Python:
-------------------------------------------------------------------------
-python filename.py
-------------------------------------------------------------------------
+*python filename.py*
 Replace `filename.py` with the lesson file you want to run.
 
 
@@ -49,11 +45,11 @@ Try your hand at tictactoe_final_game.py when you're ready to put your skills to
 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+##### Fork the Project
+##### Create your Feature Branch (git checkout -b feature/AmazingFeature)
+##### Commit your changes (git commit -m 'Add some AmazingFeature')
+##### Push to the Branch (git push origin feature/AmazingFeature)
+##### Open a Pull Request
 
 
 ### Feedback
